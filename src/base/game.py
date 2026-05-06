@@ -30,7 +30,8 @@ class Game:
 
     def run(self):
         self.running = True
-        self.screen.setup(curses.initscr())
+        if self.screen.stdscr is None:
+            self.screen.setup(curses.initscr())
 
         if Save.exists():
             self.showMenu = True
