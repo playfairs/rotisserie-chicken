@@ -1,1 +1,1 @@
-# It's a fucking chicken.
+# It's a Rotisserie Chicken!
